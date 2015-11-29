@@ -1,0 +1,13 @@
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\Rome.BusinessLogic.Test.dll
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\Rome.BusinessLogic.Test.pdb
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\BusinessLogic.dll
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\nunit.core.dll
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\nunit.core.interfaces.dll
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\nunit.framework.dll
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\nunit.util.dll
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\BusinessLogic.pdb
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\nunit.framework.xml
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\obj\Debug\Rome.BusinessLogic.Test.csprojResolveAssemblyReference.cache
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\obj\Debug\Rome.BusinessLogic.Test.dll
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\obj\Debug\Rome.BusinessLogic.Test.pdb

@@ -1,0 +1,8 @@
+D:\dev\github\dotnet\nunit\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\dev\github\dotnet\nunit\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\dev\github\dotnet\nunit\BusinessLogic\bin\Debug\nunit.core.dll
+D:\dev\github\dotnet\nunit\BusinessLogic\bin\Debug\nunit.core.interfaces.dll
+D:\dev\github\dotnet\nunit\BusinessLogic\bin\Debug\nunit.util.dll
+D:\dev\github\dotnet\nunit\BusinessLogic\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
+D:\dev\github\dotnet\nunit\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\dev\github\dotnet\nunit\BusinessLogic\obj\Debug\BusinessLogic.pdb
