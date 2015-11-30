@@ -68,6 +68,5 @@ D:\dev\github\dotnet\nunit\nunit\bin\Microsoft.Owin.Security.OAuth.xml
 D:\dev\github\dotnet\nunit\nunit\bin\Microsoft.Owin.Security.Google.xml
 D:\dev\github\dotnet\nunit\nunit\bin\Microsoft.Owin.Security.Twitter.xml
 D:\dev\github\dotnet\nunit\nunit\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\dev\github\dotnet\nunit\nunit\obj\Debug\Rome.Web.csprojResolveAssemblyReference.cache
 D:\dev\github\dotnet\nunit\nunit\obj\Debug\nunit.dll
 D:\dev\github\dotnet\nunit\nunit\obj\Debug\nunit.pdb
