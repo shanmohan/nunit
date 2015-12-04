@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rome.RepositoryAccess", "..\Rome.RepositoryAccess\Rome.RepositoryAccess.csproj", "{090151E1-9C1F-486F-A134-C1CEF2FCE690}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rome.RepositoryAccess", "Rome.RepositoryAccess\Rome.RepositoryAccess.csproj", "{090151E1-9C1F-486F-A134-C1CEF2FCE690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rome.BusinessLogic", "BusinessLogic\Rome.BusinessLogic.csproj", "{C3F0532F-A259-4EFB-BE65-835961A23F09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rome.BusinessLogic", "Rome.BusinessLogic\Rome.BusinessLogic.csproj", "{C3F0532F-A259-4EFB-BE65-835961A23F09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rome.BusinessEntities", "BusinessEntities\Rome.BusinessEntities.csproj", "{E0D3C145-6AED-43C1-A0EF-13D131C1DB09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rome.BusinessEntities", "Rome.BusinessEntities\Rome.BusinessEntities.csproj", "{E0D3C145-6AED-43C1-A0EF-13D131C1DB09}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rome.BusinessLogic.Test", "Rome.BusinessLogic.Test\Rome.BusinessLogic.Test.csproj", "{A5D0A9CD-D801-4A17-9AD3-AC5F9146A317}"
 EndProject

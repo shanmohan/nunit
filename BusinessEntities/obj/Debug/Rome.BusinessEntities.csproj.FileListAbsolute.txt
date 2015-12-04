@@ -1,8 +1,0 @@
-D:\dev\github\dotnet\nunit\BusinessEntities\bin\Debug\BusinessEntities.dll
-D:\dev\github\dotnet\nunit\BusinessEntities\bin\Debug\BusinessEntities.pdb
-D:\dev\github\dotnet\nunit\BusinessEntities\bin\Debug\nunit.core.dll
-D:\dev\github\dotnet\nunit\BusinessEntities\bin\Debug\nunit.core.interfaces.dll
-D:\dev\github\dotnet\nunit\BusinessEntities\bin\Debug\nunit.util.dll
-D:\dev\github\dotnet\nunit\BusinessEntities\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
-D:\dev\github\dotnet\nunit\BusinessEntities\obj\Debug\BusinessEntities.dll
-D:\dev\github\dotnet\nunit\BusinessEntities\obj\Debug\BusinessEntities.pdb
