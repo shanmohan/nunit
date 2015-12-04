@@ -1,5 +1,9 @@
 ﻿using BusinessLogic;
 using NUnit.Framework;
+using Moq;
+using Rome.RepositoryAccess;
+using Rome.BusinessEntities;
+using System;
 
 namespace Rome.BusinessLogic.Test
 {
@@ -7,42 +11,80 @@ namespace Rome.BusinessLogic.Test
     [TestFixture]
     public class FlightTests
     {
-        [Test]
-        public void TestgetFlightDuration()
+        FlightService sut;
+
+        [OneTimeSetUp]
+        public void OneTimeSetUp()
         {
-            var sut = new Flight();
-            Assert.That(2,Is.EqualTo(sut.getFlightDuration(1,1)));
+            System.Diagnostics.Debug.WriteLine("OneTimeSetup is called");
+            sut = new FlightService();
+        }
+
+        [SetUp]
+        public void SetupBeforeEachTestMethodCall()
+        {
+            System.Diagnostics.Debug.WriteLine("SetupBeforeEachTestMethodCall is called");
         }
 
         [Test]
-        public  void ShouldReturnFormattedFlightNumber_formatFlightNumber()
+        public void GetFlightDuration_ShouldReturnCorrectValue()
         {
-            var sut = new Flight();
+            Assert.That(2,Is.EqualTo(sut.GetFlightDuration(1,1)));
+        }
 
-            sut.formatFlightNumber("EK", "0123");
-
+        [Test]
+        public  void FormatFlightNumber_ShouldReturnFormattedFlightNumber()
+        {
+            sut.FormatFlightNumber("EK", "0123");
             Assert.That("EK0123", Is.EqualTo("EK0123"));
         }
 
+
+
         [Test]
-        public void ShouldReturnNull_WhenDefaultPropertyValueisCalled()
+        public void GetFlight_ShouldReturnFlightObject()
         {
-            var sut = new Flight();
-            Assert.That(sut.FlightModel, Is.Null);
+            //Create the mocked object
+            Mock<IFlightRepository> mockedFlightRepository= new Mock<IFlightRepository>();
+
+            //setup the mocked object with the correct repsonse
+            mockedFlightRepository.Setup(x => x.getFlight()).Returns(new FlightEntity() { FlightNumber = "EK987" });
+
+            //Inject the mocked object using the dependency injection
+            var flightService = new FlightService(mockedFlightRepository.Object);
+            
+            System.Diagnostics.Debug.WriteLine("getFlight is being asserted");
+
+            //Call the method under test
+            var flightEntity = flightService.GetFlight();
+
+            //Assert the value
+            Assert.That(flightEntity.FlightNumber, Is.EqualTo("EK987"));
         }
 
         [Test]
-        public void ShouldFail_WhenDefaultPropertyValueisCalled()
-        {
-            var sut = new Flight();
-            sut.FlightModel = "";
-            Assert.That(sut.FlightModel, Is.Empty);
+        public void UpdateFlightDetails_ShouldThrowException()
+        {         
+            Assert.Throws(typeof(NullReferenceException),sut.UpdateFlightDetails);
         }
 
         [Test]
-        public void ShouldReturnTrue_WhenIsLongHaulDefaultValue()
+        public void IsLongHaul_ShouldReturnTrueWhenIsLongHaulDefaultValue()
         {
-            Assert.That(new Flight().IsLongHaul, Is.False);
+            Assert.That(new FlightService().IsLongHaul, Is.False);
+        }
+
+        [TearDown]
+        public void TeardownAfterEachTestMethodIsCalled()
+        {
+            System.Diagnostics.Debug.WriteLine("TeardownAfterEachTestMethodIsCalled is called");
+        }
+
+        [OneTimeTearDown]
+        public void OneTimeTearDown()
+        {
+            System.Diagnostics.Debug.WriteLine("OneTimeTearDown is called");
+            sut = null;
         }
 
     }

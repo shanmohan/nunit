@@ -29,7 +29,14 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Moq, Version=4.2.1510.2205, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <HintPath>..\packages\Moq.4.2.1510.2205\lib\net40\Moq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="nunit.core, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnitTestAdapter.2.0.0\lib\nunit.core.dll</HintPath>
       <Private>True</Private>
@@ -60,17 +67,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FlightOptionTests.cs" />
     <Compile Include="FlightTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setup.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLogic\Rome.BusinessLogic.Src.csproj">
+    <ProjectReference Include="..\..\Rome.RepositoryAccess\Rome.RepositoryAccess.csproj">
+      <Project>{090151e1-9c1f-486f-a134-c1cef2fce690}</Project>
+      <Name>Rome.RepositoryAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessEntities\Rome.BusinessEntities.csproj">
+      <Project>{e0d3c145-6aed-43c1-a0ef-13d131c1db09}</Project>
+      <Name>Rome.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessLogic\Rome.BusinessLogic.csproj">
       <Project>{c3f0532f-a259-4efb-be65-835961a23f09}</Project>
-      <Name>Rome.BusinessLogic.Src</Name>
+      <Name>Rome.BusinessLogic</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

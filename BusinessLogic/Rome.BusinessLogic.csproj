@@ -56,12 +56,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Flight.cs" />
-    <Compile Include="FlightOption.cs" />
+    <Compile Include="FlightService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Rome.RepositoryAccess\Rome.RepositoryAccess.csproj">
+      <Project>{090151e1-9c1f-486f-a134-c1cef2fce690}</Project>
+      <Name>Rome.RepositoryAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessEntities\Rome.BusinessEntities.csproj">
+      <Project>{e0d3c145-6aed-43c1-a0ef-13d131c1db09}</Project>
+      <Name>Rome.BusinessEntities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

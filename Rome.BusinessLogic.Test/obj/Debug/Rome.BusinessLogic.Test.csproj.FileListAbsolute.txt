@@ -11,3 +11,9 @@ D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\nunit.framework.xml
 D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\obj\Debug\Rome.BusinessLogic.Test.csprojResolveAssemblyReference.cache
 D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\obj\Debug\Rome.BusinessLogic.Test.dll
 D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\obj\Debug\Rome.BusinessLogic.Test.pdb
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\Rome.RepositoryAccess.dll
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\BusinessEntities.dll
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\Rome.RepositoryAccess.pdb
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\BusinessEntities.pdb
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\Moq.dll
+D:\dev\github\dotnet\nunit\Rome.BusinessLogic.Test\bin\Debug\Moq.xml
